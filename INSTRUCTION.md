@@ -1,4 +1,4 @@
-To create pods/services/namespace you should firstly run command:
+To create Pods, Services, and a Namespace, you should first run the command:
 ```
 kubectl apply -f <fileanme>
 ```
@@ -15,7 +15,7 @@ kubectl -n <namespace> exec -it <pod> -- sh
 ```
 curl http://<servicename>.<namespace>.svc.cluster.local
 ```
-3. Aftervards you can find this query in pods logs using comand:
+3. Afterwards you can find this query in pods logs using command:
 ```
 kubectl logs <selector of pods>
 ```
